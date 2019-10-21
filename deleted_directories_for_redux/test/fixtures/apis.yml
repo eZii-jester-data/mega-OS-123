@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rfc: MyText
+  rftrolling_foreign_key: 1
+  code: one
+
+two:
+  rfc: MyText
+  rftrolling_foreign_key: 1
+  code: two

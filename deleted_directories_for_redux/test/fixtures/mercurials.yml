@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ezii_os_global_path: MyText
+  detected_app_type: MyText
+  level: 1
+
+two:
+  ezii_os_global_path: MyText
+  detected_app_type: MyText
+  level: 1

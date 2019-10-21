@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  employee_graph_svg_text: MyText
+  medium_link: MyText
+  ezii_game_x_zip_download_link: MyText
+
+two:
+  employee_graph_svg_text: MyText
+  medium_link: MyText
+  ezii_game_x_zip_download_link: MyText
