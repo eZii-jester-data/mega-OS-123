@@ -1,7 +1,0 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  wit_ai_parse_model: one
-
-two:
-  wit_ai_parse_model: two

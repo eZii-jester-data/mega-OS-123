@@ -1,9 +1,0 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  ezii_adult_verify_and_signin: one
-  copies: MyText
-
-two:
-  ezii_adult_verify_and_signin: two
-  copies: MyText

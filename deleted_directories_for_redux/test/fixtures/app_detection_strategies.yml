@@ -1,9 +1,0 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  app_detection: one
-  implementation_in_ruby_dsl: MyText
-
-two:
-  app_detection: two
-  implementation_in_ruby_dsl: MyText
