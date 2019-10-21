@@ -1,0 +1,148 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary" >
+    <a class="navbar-brand" href="/">
+      eZii
+    </a>
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+
+
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+   <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-toggle-layout-choosing" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Choose Layout
+            </a>
+			    <div class="dropdown-menu" id="navbar-dropdown-menu-eZii-layout-choosing" aria-labelledby="#navbar-dropdown-toggle-layout-choosing">
+					
+					<% i=0 %>
+              <% Sticks(:return_statement).each do |stick| %>
+                <a id="navbar-dropdown-menu-<%= 'layout-choosing' %>-<%= i+=1 %>" class="dropdown-item" href="/?layout=<%= CGI.escape(stick.name) %>"><%= stick.name %></a>
+              <% end %>
+             </div>
+          </li>	
+            <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-toggle-eZii" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              eZii
+            </a>
+			
+
+            
+			    <div class="dropdown-menu" id="navbar-dropdown-menu-eZii" aria-labelledby="#navbar-dropdown-toggle-eZii">
+					
+					<% i=0 %>
+					
+					
+              <a draggable id="navbar-dropdown-menu-<%= 'eZii' %>-<%= i+=1 %>" class="dropdown-item" href="/visualizations">eZii Visual</a>
+			  
+			  
+			  
+              <a id="navbar-dropdown-menu-<%= 'eZii' %>-<%= i+=1 %>" class="dropdown-item" href="/visualizations">eZii System Check</a>
+			  
+			  
+			  
+              <a id="navbar-dropdown-menu-<%= 'eZii' %>-<%= i+=1 %>" class="dropdown-item" href="/ezii_teamworks">eZii Teamwork</a>
+              <a id="navbar-dropdown-menu-<%= 'eZii' %>-<%= i+=1 %>" class="dropdown-item" href="/ezii_zapping">eZii Zapping (Like Tinder or linear television for websites)</a>
+              <a id="navbar-dropdown-menu-<%= 'eZii' %>-<%= i+=1 %>" class="dropdown-item" href="/whitelabel_system_extensions">WISE</a>
+              <a id="navbar-dropdown-menu-<%= 'eZii' %>-<%= i+=1 %>" class="dropdown-item" href="<%=  directory_path('/local/') %>">OS</a>
+              <a id="navbar-dropdown-menu-<%= 'eZii' %>-<%= i+=1 %>" class="dropdown-item" href="/ezii_delta_gits">eZii Delta System > Git</a>
+              <a id="navbar-dropdown-menu-<%= 'eZii' %>-<%= i+=1 %>" class="dropdown-item" href="/ezii_delta_directions">eZii Delta System > Directions</a>
+              <a id="navbar-dropdown-menu-<%= 'eZii' %>-<%= i+=1 %>" class="dropdown-item" href="/ezii_adult_verify_and_signins">eZii SignIN</a>
+              <a id="navbar-dropdown-menu-<%= 'eZii' %>-<%= i+=1 %>" class="dropdown-item" href="/widgets">Apps</a>
+              <a id="navbar-dropdown-menu-<%= 'eZii' %>-<%= i+=1 %>" class="dropdown-item" href="/big_discrete_modules">Big Discrete Modules</a>
+              <a id="navbar-dropdown-menu-<%= 'eZii' %>-<%= i+=1 %>" class="dropdown-item" href="/ezii_refactoring_combies">eZii Refactoring Comby (IMPORTANT)</a>
+
+			                <a  id="navbar-dropdown-menu-<%= 'eZii' %>-<%= i+=1 %>" class="dropdown-item" href="/mercurials">eZii Source (mercurialHub)</a>
+
+			                <a id="navbar-dropdown-menu-<%= 'eZii' %>-<%= i+=1 %>" class="dropdown-item" href="/ezii_cities">eZii Cities (3d)</a>
+                      			                <a id="navbar-dropdown-menu-<%= 'eZii' %>-<%= i+=1 %>" class="dropdown-item" href="/ezii_robots_experiments">eZii Robot Experiments (3d)</a>
+
+             </div>
+          </li>	
+
+          <li class="nav-item dropdown">
+            <a id="navbar-dropdown-toggle-bAnal" class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              bAnal
+            </a>
+            <div class="dropdown-menu" id="navbar-dropdown-menu-bAnal" aria-labelledby="navbarDropdown">
+				
+				
+				
+              <a id="navbar-dropdown-menu-<%= 'bAnal' %>-<%= i+=1 %>" class="dropdown-item" href="/banal/brainstorms">bAnal Brainstorms</a>
+			  
+			  
+			  
+			  
+              <a id="navbar-dropdown-menu-<%= 'bAnal' %>-<%= i+=1 %>" class="dropdown-item" href="/banal/projects">bAnal Projects</a>
+              <a id="navbar-dropdown-menu-<%= 'bAnal' %>-<%= i+=1 %>" class="dropdown-item" href="/banal/documents">bAnal Documents</a>
+              <a id="navbar-dropdown-menu-<%= 'bAnal' %>-<%= i+=1 %>" class="dropdown-item" href="/banal/links">bAnal Links</a>
+              <a id="navbar-dropdown-menu-<%= 'bAnal' %>-<%= i+=1 %>" class="dropdown-item" href="/banal_business_testcases">bAnal Business Test Cases</a>
+              <a id="navbar-dropdown-menu-<%= 'bAnal' %>-<%= i+=1 %>" class="dropdown-item" href="/banal_complexes">bAnal Complexes</a>
+              <a id="navbar-dropdown-menu-<%= 'bAnal' %>-<%= i+=1 %>" class="dropdown-item" href="/address_searches">bAnal Address Searches</a>
+              <a id="navbar-dropdown-menu-<%= 'bAnal' %>-<%= i+=1 %>" class="dropdown-item" href="/apis">bAnal API</a>
+              <a id="navbar-dropdown-menu-<%= 'bAnal' %>-<%= i+=1 %>" class="dropdown-item" target="_blank" href="/blazer">bAnal BI</a>
+              <a id="navbar-dropdown-menu-<%= 'bAnal' %>-<%= i+=1 %>" class="dropdown-item" target="_blank" href="/searchjoy">bAnal Search Analytics</a>
+              <a id="navbar-dropdown-menu-<%= 'bAnal' %>-<%= i+=1 %>" class="dropdown-item" target="_blank" href="https://rubygems.org/gems/pdf_search">bAnal PDF Search Rubygem</a>
+              <a id="navbar-dropdown-menu-<%= 'bAnal' %>-<%= i+=1 %>" class="dropdown-item" href="/ezii_os_files/%2Fdropbox%2FSystem.pdf">SYSTEM</a>
+            </div>
+          </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5>Comments</h5>
+                    <%=
+
+                      uid = request.remote_ip.sub('.', '000')
+                      uid = uid.sub('::', '000').to_i
+
+                      comments = Comment.search(params[:search_query])
+
+                      Searchjoy::Search.create(
+                        search_type: "Comment", # typically the model name
+                        query: params[:search_query],
+                        results_count: comments.count,
+                        user_id: uid
+                      )
+
+                      comments.map do |comment|
+                        link_to(comment.comment_text, '/banal/brainstorms#' + 'comment-' + comment.id.to_s)
+                      end.join('<br>').html_safe
+
+                    %>
+                    
+                    <h5>News</h5>
+
+                    To be implemented soon
+					
+					<h5>Cities</h5>
+					
+					<%= 
+                    	ezii_cities = EziiCity.search(params[:search_query])
+						
+                        ezii_cities.map do |ezii_city|
+                          link_to(ezii_city.address, '/ezii_cities/' + ezii_city.id.to_s)
+                        end.join('<br>').html_safe
+					%>
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>

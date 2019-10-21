@@ -1,0 +1,62 @@
+Not notifying due to an invalid api_key
+  [1m[35m (113.9ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (113.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (117.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (125.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (121.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (114.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (109.9ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+Notifying https://notify.bugsnag.com of ActiveRecord::EnvironmentMismatchError
+Breadcrumb name trimmed to length 30.  Original name: ActiveRecord::EnvironmentMismatchError
+Notifying https://notify.bugsnag.com of ActiveRecord::EnvironmentMismatchError
+Breadcrumb name trimmed to length 30.  Original name: ActiveRecord::EnvironmentMismatchError
+Waiting for 1 outstanding request(s)
+Request to https://notify.bugsnag.com completed, status: 200
+Request to https://notify.bugsnag.com completed, status: 200
+Not notifying ActiveRecord::EnvironmentMismatchError due to ignore being signified in internal middlewares
+  [1m[35m (114.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Not notifying SystemExit due to ignore being signified in internal middlewares
+Not notifying SystemExit due to ignore being signified in internal middlewares
+Not notifying SystemExit due to ignore being signified in internal middlewares
+Not notifying SystemExit due to ignore being signified in internal middlewares
+Not notifying SystemExit due to ignore being signified in internal middlewares
+Not notifying SystemExit due to ignore being signified in internal middlewares
+Not notifying SystemExit due to ignore being signified in internal middlewares
+  [1m[35m (109.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (115.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (116.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (116.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (114.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (121.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (115.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+Notifying https://notify.bugsnag.com of ActiveRecord::EnvironmentMismatchError
+Breadcrumb name trimmed to length 30.  Original name: ActiveRecord::EnvironmentMismatchError
+Notifying https://notify.bugsnag.com of ActiveRecord::EnvironmentMismatchError
+Breadcrumb name trimmed to length 30.  Original name: ActiveRecord::EnvironmentMismatchError
+Waiting for 1 outstanding request(s)
+Request to https://notify.bugsnag.com completed, status: 200
+Request to https://notify.bugsnag.com completed, status: 200
+Not notifying ActiveRecord::EnvironmentMismatchError due to ignore being signified in internal middlewares
+  [1m[35m (116.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Not notifying SystemExit due to ignore being signified in internal middlewares
+Not notifying SystemExit due to ignore being signified in internal middlewares
+Not notifying SystemExit due to ignore being signified in internal middlewares
+Not notifying SystemExit due to ignore being signified in internal middlewares
+Not notifying SystemExit due to ignore being signified in internal middlewares
+Not notifying SystemExit due to ignore being signified in internal middlewares
+Not notifying SystemExit due to ignore being signified in internal middlewares
+Not notifying SystemExit due to ignore being signified in internal middlewares
+  [1m[35m (116.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (112.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (115.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (110.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (111.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (116.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+Notifying https://notify.bugsnag.com of ActiveRecord::EnvironmentMismatchError
+Breadcrumb name trimmed to length 30.  Original name: ActiveRecord::EnvironmentMismatchError
+Notifying https://notify.bugsnag.com of ActiveRecord::EnvironmentMismatchError
+Breadcrumb name trimmed to length 30.  Original name: ActiveRecord::EnvironmentMismatchError
+Waiting for 1 outstanding request(s)
+Request to https://notify.bugsnag.com completed, status: 200
+Request to https://notify.bugsnag.com completed, status: 200
+Not notifying ActiveRecord::EnvironmentMismatchError due to ignore being signified in internal middlewares

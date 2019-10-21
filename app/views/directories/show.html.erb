@@ -1,0 +1,91 @@
+
+<ul class="list-group">
+    <%  @paths.each do |path| %>
+        <li class="list-group-item">
+
+            <% part_of_path_mapped_to_identity_global_path = path.split('/').each.with_index.inject({}) do |acc, (part_of_path, i)| %>
+                <% acc[i] = part_of_path %>
+                <% acc[part_of_path] = File.join('/' + path.file_system.machine_readable_identifier + '/', path.split('/').take(i +  1).join('/')) %>
+                <% acc %>
+            <% end %>
+
+            <% if path.file_system.machine_readable_identifier == 'dropbox' %>
+               <%= link_to 'dropbox', root_path %>
+            <% else %>
+               <%= link_to 'local', root_path %>
+            <% end %>
+
+            <% path.split('/').reject(&:blank?).each do |part_of_path| %>
+              <SPAN>/</SPAN>     
+
+              <% if path.file? && path.to_s =~ /.*?#{Regexp.escape(part_of_path)}\Z/ %>
+                <span style="color: purple"><%= path.split('/').last %></span>
+              <% else %>
+                <%= link_to(part_of_path, directory_path(part_of_path_mapped_to_identity_global_path[part_of_path])) %>
+              <% end %>
+            <% end %>
+
+
+            <%# §∆(AVOID_N_PLUS_1) do %>
+              <%# if (app_detection_analysis = AppDetection.detect_rails_app(path.global_path)).confidence > 0.9 # max is 1, min is 0 %>
+                <%# link_to "Confirm Rails app, confidence is #{app_detection_analysis.confidence}", app_detection_analysis_path(app_detection_analysis.id, {app_detection_analysis: {confidence: app_detection_analysis.confidence + 0.001}}), {method: 'PATCH', class: 'btn btn-warning'} %>
+              <%# end %>
+            <%# end %>
+
+
+
+            <% if path.modified_at.present? %>
+              was modified
+              <%= time_ago_in_words(path.modified_at) %>
+            <% end %>
+            <%# if path.file_system_path =~ /\.zip\Z/ %>
+                <%# button_to('Unzip', unzips_path(unzip: {zip_file_path: path.global_path})) %>
+            <%# end %>
+
+            <% if path.file? %>
+              <% case File.extname(path.file_system_path) %>
+              <% when '.shp' %>
+                <%= link_to 'View', ezii_os_file_path(path.global_path) %>
+              <% when '.xlsx' %>
+                <%= link_to 'View', ezii_os_file_path(path.global_path) %>
+              <% when '.pdf' %>
+                <%= link_to 'View', ezii_os_file_path(path.global_path) %>
+              <% when '.jpg' %>
+                <%= link_to 'View', ezii_os_file_path(path.global_path) %>
+              <% when '.erb' %>
+                <%= link_to('Show INLINE (admin only)', ezii_os_file_path(path.global_path, admin: true)) %>
+              <% when '.gltf' %>
+                  <span>Create eZii 3d game asset</span>
+				  <%= button_to 'Create', gltf_models_path(gltf_model: { global_path: path.global_path, bin_global_path: path.global_path.gsub('.gltf', '.bin'), textures_directory_global_path: File.join(File.dirname(path.global_path), 'textures')}),  method: 'POST' %>
+              <% end %>
+            <% end %>
+        
+        
+        
+        
+       
+            <% mega_os_path = MegaOsPath.find_or_create_by!(global_path: path.global_path) %>
+       
+
+      
+          <span style="cursor: pointer;" class="badge badge-primary badge-pil float-right" data-toggle="collapse" data-target="#collapseExample-<%= mega_os_path.id %>"><span class="oi oi-comment-square"><h5><%= mega_os_path.comment_count %></h5></span>
+ </span>
+
+
+ <div class="collapse" id="collapseExample-<%= mega_os_path.id %>">
+  <div class="card card-body">
+
+           <%= form_for Comment.new(banal_brainstorm_id: mega_os_path.id) do |f| %>
+                <%= f.text_field :comment_text %>
+                <%= f.hidden_field :banal_brainstorm_id %>
+                <%= f.submit %>
+            <% end %>
+
+            <% if mega_os_path.comment.present? %>
+              <%= render 'shared/comment', comment: mega_os_path.comment %>
+            <% end %>
+  </div>
+</div>
+        </li>
+    <% end %>
+</ul>

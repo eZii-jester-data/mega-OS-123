@@ -1,0 +1,204 @@
+{
+  "application.js": "/packs/js/application-6f55284eb403957d48e0.js",
+  "application.js.map": "/packs/js/application-6f55284eb403957d48e0.js.map",
+  "copy-and-paste-websocket-update.js": "/packs/js/copy-and-paste-websocket-update-906ef34490725b3f6a44.js",
+  "copy-and-paste-websocket-update.js.map": "/packs/js/copy-and-paste-websocket-update-906ef34490725b3f6a44.js.map",
+  "eZii-bricklayer-game-3.js": "/packs/js/eZii-bricklayer-game-3-e33a32c5e18369fde40e.js",
+  "eZii-bricklayer-game-3.js.map": "/packs/js/eZii-bricklayer-game-3-e33a32c5e18369fde40e.js.map",
+  "eZii-bricklayer-game.js": "/packs/js/eZii-bricklayer-game-2d864515083f3f203d44.js",
+  "eZii-bricklayer-game.js.map": "/packs/js/eZii-bricklayer-game-2d864515083f3f203d44.js.map",
+  "eZii-bricklayer-game/3d-stick-man.js": "/packs/js/eZii-bricklayer-game/3d-stick-man-f9dc1f361ec1095b7439.js",
+  "eZii-bricklayer-game/3d-stick-man.js.map": "/packs/js/eZii-bricklayer-game/3d-stick-man-f9dc1f361ec1095b7439.js.map",
+  "eZii-bricklayer-game/gltf-load-animated-object.js": "/packs/js/eZii-bricklayer-game/gltf-load-animated-object-c40cc3d1529ee89954b3.js",
+  "eZii-bricklayer-game/gltf-load-animated-object.js.map": "/packs/js/eZii-bricklayer-game/gltf-load-animated-object-c40cc3d1529ee89954b3.js.map",
+  "eZii-bricklayer-game/main.js": "/packs/js/eZii-bricklayer-game/main-e2fe3dc5822f1509d3ab.js",
+  "eZii-bricklayer-game/main.js.map": "/packs/js/eZii-bricklayer-game/main-e2fe3dc5822f1509d3ab.js.map",
+  "eZii-query-programming.js": "/packs/js/eZii-query-programming-fa5f02643805a22dd959.js",
+  "eZii-query-programming.js.map": "/packs/js/eZii-query-programming-fa5f02643805a22dd959.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-6f55284eb403957d48e0.js"
+      ],
+      "js.map": [
+        "/packs/js/application-6f55284eb403957d48e0.js.map"
+      ]
+    },
+    "copy-and-paste-websocket-update": {
+      "js": [
+        "/packs/js/copy-and-paste-websocket-update-906ef34490725b3f6a44.js"
+      ],
+      "js.map": [
+        "/packs/js/copy-and-paste-websocket-update-906ef34490725b3f6a44.js.map"
+      ]
+    },
+    "eZii-bricklayer-game-3": {
+      "js": [
+        "/packs/js/eZii-bricklayer-game-3-e33a32c5e18369fde40e.js"
+      ],
+      "js.map": [
+        "/packs/js/eZii-bricklayer-game-3-e33a32c5e18369fde40e.js.map"
+      ]
+    },
+    "eZii-bricklayer-game": {
+      "js": [
+        "/packs/js/eZii-bricklayer-game-2d864515083f3f203d44.js"
+      ],
+      "js.map": [
+        "/packs/js/eZii-bricklayer-game-2d864515083f3f203d44.js.map"
+      ]
+    },
+    "eZii-bricklayer-game/3d-stick-man": {
+      "js": [
+        "/packs/js/eZii-bricklayer-game/3d-stick-man-f9dc1f361ec1095b7439.js"
+      ],
+      "js.map": [
+        "/packs/js/eZii-bricklayer-game/3d-stick-man-f9dc1f361ec1095b7439.js.map"
+      ]
+    },
+    "eZii-bricklayer-game/gltf-load-animated-object": {
+      "js": [
+        "/packs/js/eZii-bricklayer-game/gltf-load-animated-object-c40cc3d1529ee89954b3.js"
+      ],
+      "js.map": [
+        "/packs/js/eZii-bricklayer-game/gltf-load-animated-object-c40cc3d1529ee89954b3.js.map"
+      ]
+    },
+    "eZii-bricklayer-game/main": {
+      "js": [
+        "/packs/js/eZii-bricklayer-game/main-e2fe3dc5822f1509d3ab.js"
+      ],
+      "js.map": [
+        "/packs/js/eZii-bricklayer-game/main-e2fe3dc5822f1509d3ab.js.map"
+      ]
+    },
+    "eZii-query-programming": {
+      "js": [
+        "/packs/js/eZii-query-programming-fa5f02643805a22dd959.js"
+      ],
+      "js.map": [
+        "/packs/js/eZii-query-programming-fa5f02643805a22dd959.js.map"
+      ]
+    },
+    "game-engine": {
+      "js": [
+        "/packs/js/game-engine-ce1fec7cc1470ca5f608.js"
+      ],
+      "js.map": [
+        "/packs/js/game-engine-ce1fec7cc1470ca5f608.js.map"
+      ]
+    },
+    "gltf/jsm/loaders/GLTFLoader": {
+      "js": [
+        "/packs/js/gltf/jsm/loaders/GLTFLoader-7d58011e6cf0bba2b6eb.js"
+      ],
+      "js.map": [
+        "/packs/js/gltf/jsm/loaders/GLTFLoader-7d58011e6cf0bba2b6eb.js.map"
+      ]
+    },
+    "hello_erb": {
+      "js": [
+        "/packs/js/hello_erb-b0a53fd0a1430de97298.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_erb-b0a53fd0a1430de97298.js.map"
+      ]
+    },
+    "kmz": {
+      "js": [
+        "/packs/js/kmz-0650242bf153057a3696.js"
+      ],
+      "js.map": [
+        "/packs/js/kmz-0650242bf153057a3696.js.map"
+      ]
+    },
+    "kmz/jsm/controls/OrbitControls": {
+      "js": [
+        "/packs/js/kmz/jsm/controls/OrbitControls-1dbe0300fad2ae33c95b.js"
+      ],
+      "js.map": [
+        "/packs/js/kmz/jsm/controls/OrbitControls-1dbe0300fad2ae33c95b.js.map"
+      ]
+    },
+    "kmz/jsm/loaders/ColladaLoader": {
+      "js": [
+        "/packs/js/kmz/jsm/loaders/ColladaLoader-24fefb3bbfb88d73ae58.js"
+      ],
+      "js.map": [
+        "/packs/js/kmz/jsm/loaders/ColladaLoader-24fefb3bbfb88d73ae58.js.map"
+      ]
+    },
+    "kmz/jsm/loaders/KMZLoader": {
+      "js": [
+        "/packs/js/kmz/jsm/loaders/KMZLoader-6b46089ca2cb96d66095.js"
+      ],
+      "js.map": [
+        "/packs/js/kmz/jsm/loaders/KMZLoader-6b46089ca2cb96d66095.js.map"
+      ]
+    },
+    "kmz/jsm/loaders/TGALoader": {
+      "js": [
+        "/packs/js/kmz/jsm/loaders/TGALoader-d535ec5b26e5ad8938dd.js"
+      ],
+      "js.map": [
+        "/packs/js/kmz/jsm/loaders/TGALoader-d535ec5b26e5ad8938dd.js.map"
+      ]
+    },
+    "shadow-dom": {
+      "js": [
+        "/packs/js/shadow-dom-a41ada97e61aa9ac0277.js"
+      ],
+      "js.map": [
+        "/packs/js/shadow-dom-a41ada97e61aa9ac0277.js.map"
+      ]
+    },
+    "simulations/water-extremely-simple": {
+      "js": [
+        "/packs/js/simulations/water-extremely-simple-6681884965797bf262c7.js"
+      ],
+      "js.map": [
+        "/packs/js/simulations/water-extremely-simple-6681884965797bf262c7.js.map"
+      ]
+    },
+    "sortable": {
+      "js": [
+        "/packs/js/sortable-f814502abc4a911a4e00.js"
+      ],
+      "js.map": [
+        "/packs/js/sortable-f814502abc4a911a4e00.js.map"
+      ]
+    },
+    "trix": {
+      "js": [
+        "/packs/js/trix-0dd1f52fe7d0c463772d.js"
+      ],
+      "js.map": [
+        "/packs/js/trix-0dd1f52fe7d0c463772d.js.map"
+      ]
+    }
+  },
+  "game-engine.js": "/packs/js/game-engine-ce1fec7cc1470ca5f608.js",
+  "game-engine.js.map": "/packs/js/game-engine-ce1fec7cc1470ca5f608.js.map",
+  "gltf/jsm/loaders/GLTFLoader.js": "/packs/js/gltf/jsm/loaders/GLTFLoader-7d58011e6cf0bba2b6eb.js",
+  "gltf/jsm/loaders/GLTFLoader.js.map": "/packs/js/gltf/jsm/loaders/GLTFLoader-7d58011e6cf0bba2b6eb.js.map",
+  "hello_erb.js": "/packs/js/hello_erb-b0a53fd0a1430de97298.js",
+  "hello_erb.js.map": "/packs/js/hello_erb-b0a53fd0a1430de97298.js.map",
+  "kmz.js": "/packs/js/kmz-0650242bf153057a3696.js",
+  "kmz.js.map": "/packs/js/kmz-0650242bf153057a3696.js.map",
+  "kmz/jsm/controls/OrbitControls.js": "/packs/js/kmz/jsm/controls/OrbitControls-1dbe0300fad2ae33c95b.js",
+  "kmz/jsm/controls/OrbitControls.js.map": "/packs/js/kmz/jsm/controls/OrbitControls-1dbe0300fad2ae33c95b.js.map",
+  "kmz/jsm/loaders/ColladaLoader.js": "/packs/js/kmz/jsm/loaders/ColladaLoader-24fefb3bbfb88d73ae58.js",
+  "kmz/jsm/loaders/ColladaLoader.js.map": "/packs/js/kmz/jsm/loaders/ColladaLoader-24fefb3bbfb88d73ae58.js.map",
+  "kmz/jsm/loaders/KMZLoader.js": "/packs/js/kmz/jsm/loaders/KMZLoader-6b46089ca2cb96d66095.js",
+  "kmz/jsm/loaders/KMZLoader.js.map": "/packs/js/kmz/jsm/loaders/KMZLoader-6b46089ca2cb96d66095.js.map",
+  "kmz/jsm/loaders/TGALoader.js": "/packs/js/kmz/jsm/loaders/TGALoader-d535ec5b26e5ad8938dd.js",
+  "kmz/jsm/loaders/TGALoader.js.map": "/packs/js/kmz/jsm/loaders/TGALoader-d535ec5b26e5ad8938dd.js.map",
+  "shadow-dom.js": "/packs/js/shadow-dom-a41ada97e61aa9ac0277.js",
+  "shadow-dom.js.map": "/packs/js/shadow-dom-a41ada97e61aa9ac0277.js.map",
+  "simulations/water-extremely-simple.js": "/packs/js/simulations/water-extremely-simple-6681884965797bf262c7.js",
+  "simulations/water-extremely-simple.js.map": "/packs/js/simulations/water-extremely-simple-6681884965797bf262c7.js.map",
+  "sortable.js": "/packs/js/sortable-f814502abc4a911a4e00.js",
+  "sortable.js.map": "/packs/js/sortable-f814502abc4a911a4e00.js.map",
+  "trix.js": "/packs/js/trix-0dd1f52fe7d0c463772d.js",
+  "trix.js.map": "/packs/js/trix-0dd1f52fe7d0c463772d.js.map"
+}
